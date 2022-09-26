@@ -17,7 +17,7 @@ public class WordRepetitionMapCreator {
 
         String[] s = sentence.split(" ");
 
-        int i = 0;
+        int i;
         for (String s1 : s) {
             if (!map.containsKey(s1))
                 map.put(s1, 1);
